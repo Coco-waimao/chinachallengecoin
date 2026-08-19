@@ -12,3 +12,13 @@ Thumbs.db
 *.swp
 *.bak
 *.orig
+
+# Build/generator scripts (generated static HTML is the deliverable)
+_blog_data_a.py
+_blog_data_b.py
+_blog_data_c.py
+_blog_posts.py
+_gen_blog_detail.py
+_gen_detail.py
+_gen_purpose.py
+_img2banner.py
