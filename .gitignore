@@ -1,0 +1,14 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# WorkBuddy agent data (not part of the website)
+.workbuddy/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.orig
