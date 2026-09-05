@@ -568,7 +568,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .featured-content h2 a:hover { color: var(--primary-color); }
 .featured-content p { color: var(--text-light); margin-bottom: 1.5rem; }
 
-.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+.blog-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 .blog-card { background: white; border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; transition: var(--transition); display: flex; flex-direction: column; }
 .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
 .blog-image { position: relative; aspect-ratio: 16 / 10; overflow: hidden; }
@@ -653,6 +653,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .article-body a { color: var(--primary-color); font-weight: 500; }
 .article-body a:hover { text-decoration: underline; }
 .article-body strong { color: var(--text-dark); }
+.article-note { font-size: 0.9rem; color: var(--text-muted); border-left: 3px solid var(--primary-color); background: var(--bg-light); padding: 0.85rem 1.1rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 1.25rem 0 1.5rem; line-height: 1.7; }
 .cta-box { background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%); color: white; border-radius: var(--radius-lg); padding: 2rem; margin: 2rem 0; }
 .cta-box h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
 .cta-box p { color: #dbeafe; margin-bottom: 1.25rem; }
@@ -703,7 +704,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .overview-grid { grid-template-columns: 1fr; }
     .reviews-summary { grid-template-columns: 1fr; }
     .spec-cards-grid { grid-template-columns: 1fr; }
-    .blog-grid { grid-template-columns: repeat(2, 1fr); }
+    .blog-grid { grid-template-columns: repeat(3, 1fr); }
     .article-layout { grid-template-columns: 1fr; }
     .article-sidebar { position: static; }
     .hero-text h1 { font-size: 2.5rem; }
