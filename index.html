@@ -56,6 +56,61 @@
         "brand": { "@type": "Brand", "name": "ChinaChallengeCoin" }
     }
     </script>
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is there a minimum order quantity?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. We accept orders of any size — a single coin for a keepsake or thousands for a large team."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How much do custom challenge coins cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pricing depends on size, style, enamel type, and quantity. Send us your design for a precise, free quote."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How fast can I get a proof?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide a free digital proof within 12 hours of receiving your artwork or concept, with unlimited revisions until you approve."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the production time?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standard production is about 7–10 business days after proof approval, with express options available for time-sensitive orders."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What file formats do you accept?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We accept AI, EPS, PDF, PSD, PNG, and JPG. Vector files give the crispest result — and if all you have is a sketch, our designers will build the artwork for you."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I choose different edges and enamel colors?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. We offer a dozen edge styles, a full range of enamel colors, custom shapes, and multiple packaging options — all configured to your design."
+            }
+        }
+    ]
+}</script>
 </head>
 <body>
     <!-- Top Bar -->
@@ -225,7 +280,7 @@
                     </div>
                 </article>
 				<!-- SEO: hidden from view, kept in DOM for crawlers -->
-                <article class="product-card seo-hidden">
+                <article class="product-card">
                     <div class="product-image"><img src="imgs/products/single-sided-coins.jpg" alt="Single-sided challenge coin" loading="lazy"></div>
                     <div class="product-info">
                         <h3>Single-Sided Coins</h3>
@@ -243,7 +298,7 @@
                 </article>
 				
                 <!-- SEO: hidden from view, kept in DOM for crawlers -->
-                <article class="product-card seo-hidden">
+                <article class="product-card">
                     <div class="product-badge new">NEW</div>
                     <div class="product-image"><img src="imgs/products/fidget-edc-coins.jpg" alt="Fidget EDC challenge coin" loading="lazy"></div>
                     <div class="product-info">
@@ -252,7 +307,7 @@
                         <a href="product/fidget-edc-coins/index.html" class="btn btn-outline">View Details</a>
                     </div>
                 </article>
-                <article class="product-card seo-hidden">
+                <article class="product-card">
                     <div class="product-image"><img src="imgs/products/spinner-coins.jpg" alt="Spinner challenge coin" loading="lazy"></div>
                     <div class="product-info">
                         <h3>Spinner Coins</h3>
@@ -473,11 +528,6 @@
             <div class="section-header">
                 <span class="section-eyebrow">Reviews</span>
                 <h2>What Our Customers Say</h2>
-                <div class="rating-summary">
-                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <span class="rating-text">4.9 out of 5</span>
-                    <span class="review-count">Based on 5,000+ reviews</span>
-                </div>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
@@ -537,6 +587,77 @@
                     <button class="faq-question"><span>Can I choose different edges and enamel colors?</span><i class="fas fa-chevron-down"></i></button>
                     <div class="faq-answer"><p>Absolutely. We offer a dozen edge styles, a full range of enamel colors, custom shapes, and multiple packaging options — all configured to your design.</p></div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- From the Blog -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">From the Blog</span>
+                <h2>Challenge Coin Guides &amp; Industry Knowledge</h2>
+                <p>Practical guides on design, materials, sizing, and pricing — written by the people who make the coins.</p>
+            </div>
+            <div class="blog-grid blog-grid--3">
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/challenge-coin-minimum-order-quantity-1.jpg" alt="A single custom challenge coin beside a large bulk tray, showing minimum order versus bulk" loading="lazy"><span class="blog-category">Buying Guide</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> September 27, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/challenge-coin-minimum-order-quantity.html">Challenge Coin Minimum Order: Why Most Suppliers Say 50 and How No-Minimum Really Works</a></h3>
+                        <p>Why minimums exist, what changes when you order 1, 10, or 100, and how no-minimum production works without charging you twice.</p>
+                        <a href="blog/challenge-coin-minimum-order-quantity.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/challenge-coin-mold-fee-explained-1.jpg" alt="A polished steel challenge coin die beside a freshly struck custom coin on a dark workbench" loading="lazy"><span class="blog-category">Buying Guide</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> September 18, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/challenge-coin-mold-fee-explained.html">Challenge Coin Mold Fee: What It Is, When It Applies, and How to Avoid Paying Twice</a></h3>
+                        <p>What a mold fee actually pays for, when suppliers waive it, how long your die is stored, and how to avoid paying for the same tool twice.</p>
+                        <a href="blog/challenge-coin-mold-fee-explained.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/challenge-coin-artwork-guide-1.jpg" alt="Graphic designer preparing custom challenge coin vector artwork showing wireframes, line weights, and Pantone color swatches" loading="lazy"><span class="blog-category">Design Tips</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> September 12, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/challenge-coin-artwork-guide.html">Challenge Coin Artwork Guide: Vector Setup, Line Weights &amp; Color Specs</a></h3>
+                        <p>Master vector file requirements, minimum 0.3mm metal line widths, Pantone PMS color matching, and coin typography.</p>
+                        <a href="blog/challenge-coin-artwork-guide.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/challenge-coin-special-effects-1.jpg" alt="Vibrant custom challenge coin featuring multi-color translucent enamel and intricate metal detailing" loading="lazy"><span class="blog-category">Design Tips</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> September 8, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/challenge-coin-special-effects.html">Challenge Coin Special Effects: Glow, Translucent, Glitter &amp; Cutouts</a></h3>
+                        <p>Explore glow enamel, translucent stained-glass effects, glitter accents, cutout holes, and spinners to elevate your coin.</p>
+                        <a href="blog/challenge-coin-special-effects.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/how-much-do-challenge-coins-cost-1.jpg" alt="Rows of custom challenge coins arranged to show increasing order quantity from a small batch to a bulk run" loading="lazy"><span class="blog-category">Buying Guide</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> September 5, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/how-much-do-challenge-coins-cost.html">How Much Do Challenge Coins Cost in 2026? (What Drives the Price)</a></h3>
+                        <p>What actually drives the cost of a custom coin, how fixed tooling differs from per-piece cost, and how to read any quote with confidence.</p>
+                        <a href="blog/how-much-do-challenge-coins-cost.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"><img src="imgs/blog/challenge-coin-plating-and-finishes-1.jpg" alt="Custom challenge coin metal plating options displaying shiny gold, antique silver, polished nickel, and bronze finishes" loading="lazy"><span class="blog-category">Design Tips</span></div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><span><i class="far fa-calendar"></i> August 18, 2026</span><span><i class="far fa-clock"></i> 6 min</span></div>
+                        <h3><a href="blog/challenge-coin-plating-and-finishes.html">Challenge Coin Plating and Metal Finishes: The Complete Visual Guide</a></h3>
+                        <p>Compare shiny gold, antique silver, black nickel, copper, and dual plating for your custom design.</p>
+                        <a href="blog/challenge-coin-plating-and-finishes.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div style="text-align: center; margin-top: 2.5rem;">
+                <a href="blog.html" class="btn btn-outline btn-large">View All Articles</a>
             </div>
         </div>
     </section>

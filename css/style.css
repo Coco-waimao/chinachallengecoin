@@ -280,6 +280,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ============ FAQ ============ */
 .faq { padding: 5rem 0; }
 .faq-grid { max-width: 800px; margin: 0 auto; }
+.faq-list { max-width: 800px; margin: 0 auto; }
 .faq-item { border: 1px solid var(--border-color); border-radius: var(--radius-md); margin-bottom: 1rem; overflow: hidden; }
 .faq-question { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 1.5rem; font-weight: 600; font-size: 1rem; text-align: left; color: var(--text-dark); }
 .faq-question i { transition: var(--transition); color: var(--gold); }
@@ -380,6 +381,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .about-stats { padding: 4rem 0; background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%); color: white; }
 .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; text-align: center; }
 .stat-number { display: block; font-size: 2.5rem; font-weight: 800; color: white; }
+.stat-item { padding: 0.5rem 0; }
 .stat-label { color: #dbeafe; }
 
 .why-choose-us-detailed { padding: 5rem 0; }
@@ -569,6 +571,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .featured-content p { color: var(--text-light); margin-bottom: 1.5rem; }
 
 .blog-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+.blog-grid--3 { grid-template-columns: repeat(3, 1fr); }
 .blog-card { background: white; border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; transition: var(--transition); display: flex; flex-direction: column; }
 .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
 .blog-image { position: relative; aspect-ratio: 16 / 10; overflow: hidden; }
@@ -669,6 +672,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .article-sidebar { position: sticky; top: 100px; display: flex; flex-direction: column; gap: 1.5rem; }
 .sidebar-widget { background: white; border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.5rem; }
+.toc-widget { margin-bottom: 1.5rem; }
 .sidebar-widget h3 { font-size: 1.1rem; margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border-color); }
 .toc-list li { margin-bottom: 0.6rem; }
 .toc-list a { color: var(--text-light); font-size: 0.9rem; }
@@ -705,6 +709,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .reviews-summary { grid-template-columns: 1fr; }
     .spec-cards-grid { grid-template-columns: 1fr; }
     .blog-grid { grid-template-columns: repeat(3, 1fr); }
+    .blog-grid--3 { grid-template-columns: repeat(2, 1fr); }
     .article-layout { grid-template-columns: 1fr; }
     .article-sidebar { position: static; }
     .hero-text h1 { font-size: 2.5rem; }
